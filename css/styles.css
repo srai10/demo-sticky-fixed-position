@@ -7,3 +7,33 @@ section {
     padding: 1rem;
 }
 /* developer styles go here */
+
+h1 {
+    position: sticky;
+    top: 0;
+}
+
+h2 {
+    background-color: tomato;
+    padding: 1rem 0.5rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    position: sticky;
+    top: 0;
+    /*position sticky only works if there are direct siblings of the element*/ 
+    /*Sticky positioning can be thought of as a gybrid of relative and fixed positions*/
+}
+
+h3 {
+    position: sticky;
+    top: 104px;
+    background-color: #fff;
+}
+
+.snowflake {
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    z-index: 1;
+    /*fixed positioned elements are similar to absolute positioned elements - the natural space that the element took up in the flow is now gone. */
+}
